@@ -1,6 +1,6 @@
-# Issue date for running inline javascript with Turbo rails and Content Security Policy
+# A demo rails app that runs inline javascript with Turbo rails and Content Security Policy (CSP)
 
-This is a demo app that shows an issue with running inline javascript from an HTML that is shown by Turbo Rails.
+This is a demo app that shows an issue with running inline javascript from an HTML that is shown by Turbo Rails when Content Security Policy (CSP) is enabled.
 
 ## Setup
 
