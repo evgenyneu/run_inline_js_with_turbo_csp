@@ -17,7 +17,7 @@ rails s
 ## Steps to reproduce
 
 * Open `http://127.0.0.1:3000/` in your browser.
-* Click "Load content" link. It sends a [Turbo Stream](https://turbo.hotwired.dev/handbook/streams) request that replaces the content of the `#my_content` div with the content of [app/views/hello/show.turbo_stream.erb](/app/views/hello/show.turbo_stream.erb]). This content contains inline JavaScript that should be executed:
+* Click "Load content" link. It sends a [Turbo Stream](https://turbo.hotwired.dev/handbook/streams) request that replaces the content of the `#my_content` div with the content of [app/views/hello/show.turbo_stream.erb](https://github.com/evgenyneu/run_inline_js_with_turbo_csp/blob/main/app/views/hello/show.turbo_stream.erb). This content contains inline JavaScript that should be executed:
 
 ```
 <%= javascript_tag nonce: true do %>
