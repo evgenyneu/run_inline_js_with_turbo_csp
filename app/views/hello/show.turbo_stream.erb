@@ -1,0 +1,9 @@
+<%= turbo_stream.replace "my_content" do %>
+  <div id="my_content">
+    <h1>Hello from Turbo!</h1>
+
+    <script>
+      console.log("Hello from JavaScript (turbo)!");
+    </script>
+  </div>
+<% end %>
